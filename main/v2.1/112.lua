@@ -44,7 +44,7 @@ SubmitButton.TextSize = 24.000
 SubmitButton.TextWrapped = true
 SubmitButton.MouseButton1Click:Connect(function()
 if KeyBox.Text == "WLDGLRBS74358341" then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/White-X-Hub/main/Run/112.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/White-X-Hub/main/run/112.lua"))()
 else
 	game.Players.LocalPlayer:Kick("Incorrect Key!")
 end)
