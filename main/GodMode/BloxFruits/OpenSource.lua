@@ -1,3 +1,11 @@
+--[[
+
+Zoi Hub - God Mode
++ Open Source Script
++ By Zoi Hub
+
+]]--
+
 local Plr = game.Players.LocalPlayer
 local PlrHP = Plr.Character.Humanoid.MaxHealth
 if PlrHP >= 101 then
