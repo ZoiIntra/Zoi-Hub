@@ -1,0 +1,4 @@
+local WLCode = {
+	YourUserIdHere
+}
+genv().WLCs = WLCode
