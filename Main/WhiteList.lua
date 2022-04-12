@@ -20,7 +20,7 @@ end
 
 -- end script
 while loop09 > 0 do
-	print("Time for use script : "..count)
+	print("Time for use script : "..count.."min.")
 	count = count - 1
 	wait(60)
 end
