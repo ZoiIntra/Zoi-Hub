@@ -5,7 +5,8 @@ genv().ZoiCs3179 = Z0i
 wait(1)
 local time = 18*100
 local player = game.Players.LocalPlayer
-for i,v in pairs(genv().ZoiCs3179) do
+local RealUserId = genv().ZoiCs3179*97
+for i,v in pairs(RealUserId) do
 	if v == player.UserId then
 		print("Done!")
 	else
