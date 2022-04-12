@@ -3,7 +3,6 @@ genv().ZoiCs3179 = Z0i
 
 -- ofc.
 wait(1)
-local time = 1800
 local loop09 = false
 local count = 30
 local player = game.Players.LocalPlayer
@@ -13,7 +12,7 @@ for i,v in pairs(RealUserId) do
 		print("Done!")
 	else
 		loop09 = true
-		wait(time)
+		wait(1800)
 		player:Kick("You use script for free, You can use only 30min!")
 	end
 end
