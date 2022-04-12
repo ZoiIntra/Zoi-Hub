@@ -3,15 +3,13 @@ genv().ZoiCs3179 = Z0i
 
 -- ofc.
 wait(1)
+local time = 18*100
 local player = game.Players.LocalPlayer
 for i,v in pairs(genv().ZoiCs3179) do
 	if v == player.UserId then
-		print("ZoiHub has start loading!")
-		wait(1)
-		print("Wait for Gui...")
-		--script
 		print("Done!")
 	else
-		player:Kick("Incorrect Key!")
+		wait(time)
+		player:Kick("You use script for free, You can use only 30min!")
 	end
 end
