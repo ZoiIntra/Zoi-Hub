@@ -3,7 +3,7 @@ genv().ZoiCs3179 = Z0i
 
 -- ofc.
 wait(1)
-local time = 18*100
+local time = 1800
 local loop09 = false
 local count = 30
 local player = game.Players.LocalPlayer
